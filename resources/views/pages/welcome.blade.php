@@ -71,6 +71,7 @@
         </header>
 
         <!-- About -->
+        <!--
         <section id="about" class="about">
             <div class="container">
                 <div class="row">
@@ -79,10 +80,9 @@
                         <p class="lead">Kami menyediakan platform yang membantu Anda mencari tempat parkir</p>
                     </div>
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
         </section>
+        -->
 
         <!-- Services -->
         <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
