@@ -34,11 +34,17 @@
         <!-- Header -->
         <header id="top" class="header">
             <div class="text-vertical-center">
-                <h1>Parkir<i>in</i></h1>
+                <h1>Parkir<em>in</em></h1>
                 <h3>Mencari tempat parkir tidak pernah semudah ini</h3>
                 <br>
                 <a href="auth/register" class="btn btn-dark btn-lg">Sign up (Alpha version)</a>
+                <br><br>
+                <strong>OR</strong> 
+                <br>
+                <h4><a href="auth/login" class="">Log in</a></h4>
             </div>
+
+             
         </header>
 
         <!-- About -->
@@ -62,7 +68,7 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <h2>Layanan Parkir<i>in</i></h2>
+                        <h2>Layanan Parkir<em>in</em></h2>
 
                         <div class="row">
                             <div class="col-md-3 col-sm-6">

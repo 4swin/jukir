@@ -14,7 +14,7 @@
 
             <div class="row">
                 <div class="col-md-5 col-centered">
-                    <h2>Sign up Parkir<i>in</i></h2>
+                    <h2>Sign up Parkir<em>in</em></h2>
                     <p>This is the <strong>Alpha version</strong> of the platform. At this stage, software can be unstable and could cause crashes or data loss. <i>Try it only if you aware of this concern</i>.</p>
 
                     <!-- {!! Form::open(['url' => '/auth/register']) !!} -->
