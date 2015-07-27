@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Carbon\Carbon;
+use App\Users;
 
 class PagesController extends Controller
 {
@@ -87,5 +89,28 @@ class PagesController extends Controller
 
     public function welcome() {
         return view('pages.welcome');
+    }
+
+    public function register() {
+        return view('pages.register');
+    }
+
+    public function newuser() {
+        $post = Request::all();
+
+        $user = new Users;
+        $user->role_id = 2; // Default role is User
+        $user->email = $post['email'];
+        $user->password = $post['password'];
+        $user->created_at = Carbon::now(); 
+
+        if($user->save())
+            return redirect('/profile');
+        else
+            return redirect('/');
+    }
+
+    public function dashboard() {
+        return view('pages.dashboard');
     }
 }

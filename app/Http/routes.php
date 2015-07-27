@@ -13,6 +13,14 @@
 
 Route::get('/', 'PagesController@welcome');
 
-/*Route::get('/', function () {
-    return view('welcome');
-});*/
+Route::get('/register', 'PagesController@register');
+Route::post('/register', 'PagesController@newuser');
+Route::get('/dashboard', 'PagesController@dashboard');
+
+Route::get('/profile', 'UsersController@profile');
+Route::post('/profile', 'UsersController@update');
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController'
+	]);
