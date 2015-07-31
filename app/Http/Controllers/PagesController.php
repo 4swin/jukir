@@ -111,6 +111,11 @@ class PagesController extends Controller
     }
 
     public function dashboard() {
+        //$user = Auth::user();
         return view('pages.dashboard');
+    }
+
+    public function listspace() {
+        return view('pages.listspace');
     }
 }

@@ -20,6 +20,8 @@ Route::get('/dashboard', 'PagesController@dashboard');
 Route::get('/profile', 'UsersController@profile');
 Route::post('/profile', 'UsersController@update');
 
+Route::get('/listspace', 'PagesController@listspace');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController'

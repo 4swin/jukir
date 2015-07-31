@@ -9,7 +9,7 @@
         <meta name="description" content="Social Parking">
         <meta name="author" content="Tukang Parkir">
 
-        <title>Parkirin - Indonesia's Sharing Parking</title>
+        <title>Parkirin - Indonesia's Social Parking</title>
 
         <!-- Bootstrap Core CSS -->
         <link rel="stylesheet" type="text/css" href="{{ asset("css/bootstrap.min.css") }}">
